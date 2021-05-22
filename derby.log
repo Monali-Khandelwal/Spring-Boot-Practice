@@ -11,3 +11,6 @@ os.arch=x86_64
 os.version=10.16
 derby.system.home=null
 Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Thu May 20 08:37:27 EDT 2021:
+Shutting down instance a816c00e-0179-858c-5025-00000d38a8b0 on database directory memory:/Users/Monali/Dev/Spring-Boot-Practice/e5c62fb5-445e-418d-bd58-b82eb46d5621 with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 

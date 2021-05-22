@@ -1,10 +1,9 @@
-package com.springBoot.courseapi;
+package com.springBoot.topic;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 @Service
@@ -13,10 +12,10 @@ public class TopicService {
     @Autowired
     private TopicRepository topicRepository;
 
-//    private List<Topic> topics = new ArrayList<>(Arrays.asList(
-//                new Topic("spring", "Spring Farmework", "Spring FrameWork"),
-//                new Topic("java", "Core Java", "Core Java description"),
-//                new Topic("javascript", "JavaScript", "JavaScript description")
+//    private List<Course> topics = new ArrayList<>(Arrays.asList(
+//                new Course("spring", "Spring Farmework", "Spring FrameWork"),
+//                new Course("java", "Core Java", "Core Java description"),
+//                new Course("javascript", "JavaScript", "JavaScript description")
 //        ));
 
     public List <Topic> getAllTopics(){
@@ -41,7 +40,7 @@ public class TopicService {
     public void updateTopic(String id, Topic topic) {
         topicRepository.save(topic);
 //        for(int i =0; i<topics.size(); i++){
-//            Topic t = topics.get(i);
+//            Course t = topics.get(i);
 //            if(t.getId().equals(id)){
 //                topics.set(i,topic);
 //                return;
